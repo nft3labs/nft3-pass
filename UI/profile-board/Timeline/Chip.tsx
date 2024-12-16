@@ -44,7 +44,7 @@ export const ChipNetwork: FC<ChipNetworkProps> = ({ network }) => {
       // }}
       icon={
         <Box display="flex" alignItems="center">
-          <Image src={icon} alt={network} width="22px" height="22px" />
+          <Image src={icon} alt={network} width={22} height={22} />
         </Box>
       }
       label={name}
